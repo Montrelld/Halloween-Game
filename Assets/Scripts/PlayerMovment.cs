@@ -31,7 +31,7 @@ public class PlayerMovment : MonoBehaviour
            if (Input.GetKeyDown(KeyCode.Space))
         {
             // Launch a projectile from the player
-            Instantiate(spherePrefab, transform.position + Vector3.up * 1.1f, spherePrefab. transform.rotation); 
+            Instantiate(spherePrefab, transform.position + Vector3.up * 1.1f, transform.rotation); 
         }
     }
 }
